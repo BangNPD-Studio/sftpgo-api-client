@@ -1,14 +1,13 @@
 {
-  "name": "@sftpgo-api-client/source",
+  "name": "sftpgo-api-client",
   "repository": {
     "url": "https://github.com/BangNPD-Studio/sftpgo-api-client.git"
   },
   "author": {
     "name": "BangNPD",
-    "email": "bang2001vl@outlook.com.vn",
-    "url": ""
+    "email": "bang2001vl@outlook.com.vn"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "scripts": {
     "build": "nx build",
@@ -42,6 +41,6 @@
     "vitest": "~0.34.6"
   },
   "type": "commonjs",
-  "main": "./src/index.js",
-  "typings": "./src/index.d.ts"
+  "main": "dist/sftpgo-api-client/src/index.js",
+  "typings": "dist/sftpgo-api-client/src/index.d.ts"
 }
