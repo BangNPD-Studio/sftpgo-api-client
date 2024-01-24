@@ -1,12 +1,22 @@
 {
   "name": "@sftpgo-api-client/source",
+  "repository": {
+    "url": "https://github.com/BangNPD-Studio/sftpgo-api-client.git"
+  },
+  "author": {
+    "name": "BangNPD",
+    "email": "bang2001vl@outlook.com.vn",
+    "url": ""
+  },
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "build": "nx build",
+    "load": "typegen https://raw.githubusercontent.com/drakkan/sftpgo/main/openapi/openapi.yaml > src/lib/client.d.ts",
     "test": "nx test"
   },
   "dependencies": {
+    "openapi-client-axios": "^7.5.1",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
@@ -25,6 +35,7 @@
     "eslint": "~8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "nx": "17.2.8",
+    "openapi-client-axios-typegen": "^7.5.1",
     "prettier": "^2.6.2",
     "typescript": "~5.2.2",
     "vite": "^5.0.0",
