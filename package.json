@@ -7,7 +7,7 @@
     "name": "BangNPD",
     "email": "bang2001vl@outlook.com.vn"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "scripts": {
     "build": "nx build",
@@ -53,5 +53,8 @@
     "openapi",
     "sftpgo",
     "typescript"
+  ],
+  "files": [
+    "/dist"
   ]
 }
