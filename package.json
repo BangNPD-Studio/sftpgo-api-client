@@ -7,7 +7,7 @@
     "name": "BangNPD",
     "email": "bang2001vl@outlook.com.vn"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "scripts": {
     "build": "nx build",
