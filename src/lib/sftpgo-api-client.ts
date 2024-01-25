@@ -1,5 +1,5 @@
 import OpenAPIClientAxios from 'openapi-client-axios';
-import { Client as AxiosClient } from './client';
+import { Client as TypeSFTPGoAPI } from './client';
 
 const defaultOption = {
   // definition: resolve(process.cwd(), 'src', 'assets', 'openapi.json'),
@@ -14,5 +14,7 @@ export function sftpgoApiClient(options = defaultOption) {
 
     withServer: { url: options.serverUrl, description: 'Default server' },
   });
-  return api.init<AxiosClient>();
+  return api.init<TypeSFTPGoAPI>();
 }
+
+export type { Client as TypeSFTPGoAPI } from './client';
