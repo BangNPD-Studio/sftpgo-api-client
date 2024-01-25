@@ -7,12 +7,13 @@
     "name": "BangNPD",
     "email": "bang2001vl@outlook.com.vn"
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "scripts": {
     "build": "nx build",
     "load": "typegen https://raw.githubusercontent.com/drakkan/sftpgo/main/openapi/openapi.yaml > src/lib/client.d.ts",
     "example:start": "ts-node example/index.ts",
+    "prepublish": "nx build --skip-nx-cache",
     "publish": "npm publish --access public",
     "test": "nx test"
   },
