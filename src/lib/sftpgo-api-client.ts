@@ -3,7 +3,8 @@ import { Client as AxiosClient } from './client';
 
 const defaultOption = {
   // definition: resolve(process.cwd(), 'src', 'assets', 'openapi.json'),
-  definition: "https://raw.githubusercontent.com/BangNPD-Studio/sftpgo-api-client/main/src/assets/openapi.json",
+  definition:
+    'https://raw.githubusercontent.com/BangNPD-Studio/sftpgo-api-client/main/assets/openapi.json',
   serverUrl: 'http://localhost:8080/api/v2',
 };
 

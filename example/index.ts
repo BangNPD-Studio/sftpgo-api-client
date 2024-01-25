@@ -1,4 +1,4 @@
-import { sftpgoApiClient } from '../lib/sftpgo-api-client';
+import { sftpgoApiClient } from '../src/lib/sftpgo-api-client';
 
 async function start() {
   const client = await sftpgoApiClient();
