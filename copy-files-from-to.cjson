@@ -1,0 +1,8 @@
+{
+  "copyFiles": [
+    {
+      "from": "src/lib/client.d.ts",
+      "to": "dist/sftpgo-api-client/src/lib/client.d.ts"
+    }
+  ]
+}

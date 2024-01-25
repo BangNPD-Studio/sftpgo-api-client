@@ -7,13 +7,13 @@
     "name": "BangNPD",
     "email": "bang2001vl@outlook.com.vn"
   },
-  "version": "1.0.1",
+  "version": "1.0.3",
   "license": "MIT",
   "scripts": {
     "build": "nx build",
     "load": "typegen https://raw.githubusercontent.com/drakkan/sftpgo/main/openapi/openapi.yaml > src/lib/client.d.ts",
     "example:start": "ts-node example/index.ts",
-    "prepublish": "nx build --skip-nx-cache",
+    "prepublish": "nx build --skip-nx-cache && npx copy-files-from-to",
     "test": "nx test"
   },
   "dependencies": {
@@ -34,6 +34,7 @@
     "@typescript-eslint/parser": "^6.9.1",
     "@vitest/coverage-v8": "~0.34.6",
     "@vitest/ui": "~0.34.6",
+    "copy-files-from-to": "^3.9.1",
     "eslint": "~8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "nx": "17.2.8",
