@@ -46,5 +46,12 @@
   },
   "type": "commonjs",
   "main": "dist/sftpgo-api-client/src/index.js",
-  "typings": "dist/sftpgo-api-client/src/index.d.ts"
+  "typings": "dist/sftpgo-api-client/src/index.d.ts",
+  "keywords": [
+    "axios",
+    "client",
+    "openapi",
+    "sftpgo",
+    "typescript"
+  ]
 }
