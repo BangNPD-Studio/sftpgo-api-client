@@ -13,6 +13,7 @@
     "build": "nx build",
     "load": "typegen https://raw.githubusercontent.com/drakkan/sftpgo/main/openapi/openapi.yaml > src/lib/client.d.ts",
     "example:start": "ts-node example/index.ts",
+    "publish": "npm publish --access public",
     "test": "nx test"
   },
   "dependencies": {
