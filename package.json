@@ -49,10 +49,14 @@
   "main": "dist/sftpgo-api-client/src/index.js",
   "typings": "dist/sftpgo-api-client/src/index.d.ts",
   "keywords": [
-    "axios",
-    "client",
-    "openapi",
+    "sftpgo-api-client",
+    "sftpgo-rest-api-client",
     "sftpgo",
+    "rest",
+    "api",
+    "client",
+    "axios",
+    "openapi",
     "typescript"
   ],
   "files": [
